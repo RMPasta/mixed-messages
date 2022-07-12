@@ -10,6 +10,36 @@
     background-color: lightblue;
     border-radius: 1em;
     margin: 0 auto;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: cornflowerblue;
+    color: lightblue;
+    border-radius: 1.2em;
+    cursor: pointer;
+}
+
+#button:active {
+    background-color: cornflowerblue;
+    color: lightblue;
+    border-radius: 1.6em;
+    height: 5.8em;
+    width: 8.6em;
+    cursor: pointer;
+}
+
+#btnText {
+    margin: auto auto;
+    font-size: 1.5em;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: darkblue;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 p {
@@ -18,4 +48,8 @@ p {
     color: darkblue;
     font-size: 1.5em;
     text-align: center;
+}
+
+#finePrint {
+    font-size: .8em;
 }
