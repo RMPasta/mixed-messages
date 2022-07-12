@@ -37,7 +37,8 @@ function randHappens() {
 }
 
 function randMessage() {
-return document.write('Hello Human, today you will feel ' + randFeeling() + '. You should expect ' + randModifier() + randThing() + ' and you might even run into ' + randHappens() + '. Come back tomorrow morning for another prediction about your day. :)')
+writeMessage = document.write('<p style="color: darkblue; text-align: center;">Hello Human, today you will feel ' + randFeeling() + '. You should expect ' + randModifier() + randThing() + ' and you might even run into ' + randHappens() + '. Come back tomorrow morning for another prediction about your day.</p>')
+return writeMessage;
 }
 
 let button = document.getElementById('button')

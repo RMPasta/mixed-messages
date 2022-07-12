@@ -1,15 +1,21 @@
+* {
+    font-family: cursive;
+}
+
 #button {
     display: flex;
     height: 6em;
-    width: 6em;
+    width: 9em;
     color: darkblue;
     background-color: lightblue;
     border-radius: 1em;
     margin: 0 auto;
 }
 
-#button, p {
+p {
     display: flex;
-    font-size: 1.2em;
+    justify-content: center;
     color: darkblue;
+    font-size: 1.5em;
+    text-align: center;
 }
