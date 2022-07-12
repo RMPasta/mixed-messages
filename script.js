@@ -36,5 +36,11 @@ function randHappens() {
     return happens[randIndex];
 }
 
+function randMessage() {
+return document.write('Hello Human, today you will feel ' + randFeeling() + '. You should expect ' + randModifier() + randThing() + ' and you might even run into ' + randHappens() + '. Come back tomorrow morning for another prediction about your day. :)')
+}
 
-console.log('Hello Human, today you will feel ' + randFeeling() + '. You should expect ' + randModifier() + randThing() + ' and you might even run into ' + randHappens() + '. Come back tomorrow morning for another prediction about your day. :)')
+let button = document.getElementById('button')
+button.addEventListener('click', event => {
+    randMessage();
+});
